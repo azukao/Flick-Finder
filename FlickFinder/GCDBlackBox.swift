@@ -2,8 +2,8 @@
 //  GCDBlackBox.swift
 //  FlickFinder
 //
-//  Created by Jarrod Parkes on 11/5/15.
-//  Copyright © 2015 Udacity. All rights reserved.
+//  Created by Azuka Omesiete on 07/5/16.
+//  Copyright © 2016 Azuka Omesiete. All rights reserved.
 //
 
 import Foundation

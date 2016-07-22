@@ -2,8 +2,8 @@
 //  Constants.swift
 //  FlickFinder
 //
-//  Created by Jarrod Parkes on 11/5/15.
-//  Copyright © 2015 Udacity. All rights reserved.
+//  Created by Azuka Omesiete on 07/5/16.
+//  Copyright © 2016 Azuka Omesiete. All rights reserved.
 //
 
 import UIKit
@@ -18,8 +18,8 @@ struct Constants {
         static let APIHost = "api.flickr.com"
         static let APIPath = "/services/rest"
         
-        static let SearchBBoxHalfWidth = 1.0
-        static let SearchBBoxHalfHeight = 1.0
+        static let SearchBBoxHalfWidth = 2.0
+        static let SearchBBoxHalfHeight = 2.0
         static let SearchLatRange = (-90.0, 90.0)
         static let SearchLonRange = (-180.0, 180.0)
     }
