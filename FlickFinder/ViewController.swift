@@ -162,6 +162,15 @@ class ViewController: UIViewController {
                     return
             }
             
+            
+            guard let totalPages = photosDictionary[Constants.FlickrResponseKeys.Pages] as? Int else {
+                displayError("Cannot find total pages")
+                return
+            }
+            let pageLimit = min(totalPages, 40)
+            let randomPage = Int(arc4random_uniform(UInt32(pageLimit))) + 1
+            
+            
             // select a random photo
             let randomPhotoIndex = Int(arc4random_uniform(UInt32(photoArray.count)))
             let photoDictionary = photoArray[randomPhotoIndex] as [String:AnyObject]
